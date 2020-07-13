@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #EFEFEF;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            height: 2000px;
+        }
+
+        .nav {
+            background-color: #CFE2F3;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+
+        .banner {
+            background-color: #D1E0E3;
+            width: 60%;
+            height: 300px;
+            line-height: 300px;
+            position: absolute;
+            top: 80px;
+            right: 50px;
+        }
+
+
+        .article-wrapper {
+            background-color: #FFF2CD;
+            position: absolute;
+            top: 410px;
+            right: 50px;
+            width: 60%;
+            height: 340px;
+        }
+
+        .article {
+            background-color: #FBE5CD;
+            position: absolute;
+            width: 45%;
+            height: 140px;
+            line-height: 140px;
+        }
+        .article1 {
+            top: 5%;
+            left: 3%;
+        }
+        .article2 {
+            top: 5%;
+            right: 3%;
+        }
+        .article3 {
+            bottom: 5%;
+            left: 3%;
+        }
+        .article4 {
+            bottom: 5%;
+            right: 3%;
+        }
+
+        .blogger,
+        .article-list {
+            background-color: #DAD2E9;
+            width: 30%;
+            position: fixed;
+            left: 50px;
+        }
+
+        .blogger {
+            height: 300px;
+            line-height: 300px;
+            top: 80px;
+        }
+
+        .article-list {
+            height: 340px;
+            line-height: 340px;
+            top: 410px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">Nav</div>
+    <div class="banner">Banner</div>
+    <div class="blogger">Blogger</div>
+    <div class="article-wrapper">
+        <div class="article article1">Article1</div>
+        <div class="article article2">Article2</div>
+        <div class="article article3">Article3</div>
+        <div class="article article4">Article4</div>
+    </div>
+    <div class="article-list">Article List</div>
+</body>
+
+</html>
